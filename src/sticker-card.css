@@ -1,0 +1,20 @@
+.sticker__card {
+  width: 250px;
+  height: 250px;
+  /*text-align: center;*/
+  border: 1px solid;
+  margin: 10px;
+  padding: 10px;
+  /*background-color: white;*/
+  overflow: hidden;
+}
+
+.sticker__card__markdown {
+  width: 100%;
+  word-wrap:break-word;
+  font-size: 2em;
+}
+
+.sticker__card__markdown * {
+  margin: 0;
+}

@@ -1,0 +1,29 @@
+.sticker-editor {
+  position: fixed;
+  left: 5vw;
+  top: 5vh;
+  width: 90vw;
+  height: 90vh;
+  max-width: 500px;
+  border: 1px solid;
+  background: rgba(225,225,225,0.95);
+  text-align: center;
+}
+
+.sticker-editor__close {
+  position: absolute;
+  right: 0;
+}
+
+.sticker-editor__input {
+  width: 50%;
+  font-size: 1.5em;
+  margin: .5em;
+}
+
+.sticker-editor__textarea {
+  width: 80%;
+  height: 75vh;
+  resize: none;
+  font-size: 1.5em;
+}

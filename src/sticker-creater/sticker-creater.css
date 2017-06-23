@@ -1,0 +1,50 @@
+.sticker-creater {
+  margin: 1em 0;
+  text-align: center;
+}
+
+.sticker-creater__editor{
+  width: 50%;
+  border: 1px solid;
+  box-shadow: 1px 1px 1px 1px;
+  display: inline-block;
+  margin: 0 2em;
+  text-align: left;
+  padding: 0 1em;
+}
+
+.sticker-creater__editor__close {
+  display: inline-block;
+  float: right;
+  margin: .5em;
+  cursor: pointer;
+}
+
+.sticker-creater__editor__textarea {
+  width: 100%;
+  resize: none;
+  font-size: 1.2em;
+}
+
+.sticker-creater__editor__done {
+  display: inline-block;
+  float: right;
+  margin: .5em;
+  padding: .5em;
+  border: 2px solid;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.sticker-creater__trigger{
+  width: 50%;
+  height: 2em;
+  line-height: 2em;
+  border: 1px solid;
+  box-shadow: 1px 1px 1px 1px;
+  display: inline-block;
+  margin: 0 2em;
+  text-align: left;
+  padding: 0 2em;
+  cursor: pointer;
+}
